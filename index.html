@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+
+    <body class="wrapper flex">
+
+        <h1 class="title">¡Bienvenido!</h1>
+
+        <section class="card flex">
+            <p class="label">Pulsa el botón para generar una lista con un ciclo que se repite 10 veces con for</p>
+            <button class="button" onclick="showFor()">Iniciar</button>
+            <div class="hide flex" id="card-for">
+                <p class="label"> La lista es: </p>
+                <p class="label" id="list-for"></p>
+            </div>
+        </section>
+
+        <section class="card flex">
+            <p class="label">Pulsa el botón para generar una lista con un ciclo que se repite 10 veces con while</p>
+            <button class="button" onclick="showWhile()">Iniciar</button>
+            <div class="hide flex" id="card-while">
+                <p class="label"> La lista es: </p>
+                <p class="label" id="list-while"></p>
+            </div>
+        </section>
+
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
